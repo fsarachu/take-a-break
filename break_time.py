@@ -1,10 +1,11 @@
 import webbrowser
 import time
 
-count = 1
+total_breaks = 3
+break_count = 0
 
-while count <= 3:
+while break_count < total_breaks:
     time.sleep(5)
     webbrowser.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
 
-    count += 1
+    break_count += 1
